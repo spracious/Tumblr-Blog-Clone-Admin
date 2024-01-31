@@ -272,9 +272,9 @@ function Nav() {
       <nav class="navbar">
         <div class="container-fluid">
          
-          <Link to="/">
+          {/* <Link to="/">
               <div style={{marginBottom:"30px"}} class="navbar-brand ms-5"><img width={50} src={logo} alt="" /></div>
-            </Link>
+            </Link> */}
 
           <input
             class="navbar-input form-control me-auto"
@@ -284,13 +284,13 @@ function Nav() {
           />
 
           <form class="d-flex ms-3">
-            <div class="btn sign" onClick={showloginHandler}>
+            {/* <div class="btn sign" onClick={showloginHandler}>
               Sign Up
             </div>
 
             <Link to="/Sign">
               <button class="btn log">Log in</button>
-            </Link>
+            </Link> */}
 
             <Link
             class="nav-link"
